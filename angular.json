@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/charting_library/charting_library.min.js"
+            ]
           },
           "configurations": {
             "production": {
