@@ -1,5 +1,5 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { HistoryService } from '../providers/history.service';
+import { MockService } from '../providers/mock.service';
 import { timer } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
@@ -28,11 +28,11 @@ export class TvComponent implements OnInit, OnDestroy {
     'D': 86400
   };
 
-  constructor(private historyService: HistoryService) {
+  constructor(private mockService: MockService) {
   }
 
   ngOnInit() {
-    this.ws = this.historyService.fakeWebSocket();
+    this.ws = this.mockService.fakeWebSocket();
 
     this.ws.onopen = () => {
       console.log('connect success');
@@ -106,7 +106,7 @@ export class TvComponent implements OnInit, OnDestroy {
         },
         getBars(symbol, granularity, startTime, endTime, onResult, onError, isFirst) {
           console.log('getBars:', arguments);
-          that.historyService.getList({
+          that.mockService.getHistoryList({
             granularity: that.historyGranularityMap[granularity],
             startTime,
             endTime
@@ -141,7 +141,7 @@ export class TvComponent implements OnInit, OnDestroy {
               if (data) {
                 // realtime data
                 // data's timestamp === recent one ? Update the recent one : A new timestamp data
-                // in this example mock data always return a new timestamp
+                // in this example mock service always returns a new timestamp(current time)
                 onTick(data);
               }
             } catch (e) {

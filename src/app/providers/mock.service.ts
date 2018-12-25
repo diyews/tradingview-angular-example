@@ -6,7 +6,7 @@ import { BTC_PRICE_LIST } from '../mock/btc-181123_2006-181124_0105';
 @Injectable({
   providedIn: 'root'
 })
-export class HistoryService {
+export class MockService {
   static dataTemplate = { 'time': 1545572340000, 'open': 3917, 'high': 3917, 'low': 3912.03, 'close': 3912.62, 'volume': 3896 };
   static dataIndex = 0;
   static dataLength = BTC_PRICE_LIST.length;
@@ -21,12 +21,12 @@ export class HistoryService {
   constructor() {
   }
 
-  getList(param) {
+  getHistoryList(param) {
     const list = [];
     let timePoint = param.startTime * 1e3;
     const now = +new Date();
     while (timePoint < now) {
-      list.push(HistoryService.dataGenerator(timePoint));
+      list.push(MockService.dataGenerator(timePoint));
       timePoint += param.granularity * 1e3;
     }
 
@@ -49,7 +49,7 @@ export class HistoryService {
 
       interval(3e3)
         .pipe(
-          map(() => HistoryService.dataGenerator())
+          map(() => MockService.dataGenerator())
         ).subscribe(x => {
         ws.onmessage && ws.onmessage(x);
       });
