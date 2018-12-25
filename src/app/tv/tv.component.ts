@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { HistoryService } from '../providers/history.service';
 import { timer } from 'rxjs';
 import { tap } from 'rxjs/operators';
@@ -8,7 +8,7 @@ import { tap } from 'rxjs/operators';
   templateUrl: './tv.component.html',
   styleUrls: ['./tv.component.scss']
 })
-export class TvComponent implements OnInit {
+export class TvComponent implements OnInit, OnDestroy {
   @Input() symbol;
 
   tradingview;
@@ -38,6 +38,10 @@ export class TvComponent implements OnInit {
       console.log('connect success');
       this.drawTv();
     };
+  }
+
+  ngOnDestroy() {
+    this.ws.close();
   }
 
   drawTv() {
@@ -100,13 +104,14 @@ export class TvComponent implements OnInit {
               })
             ).subscribe();
         },
-        getBars(symbol, granularity, startTime, endTime, onResult) {
+        getBars(symbol, granularity, startTime, endTime, onResult, onError, isFirst) {
           console.log('getBars:', arguments);
           that.historyService.getList({
             granularity: that.historyGranularityMap[granularity],
             startTime,
             endTime
           }).subscribe((data: any) => {
+            // push the history data to callback
             onResult(data);
           });
         },
@@ -117,9 +122,9 @@ export class TvComponent implements OnInit {
               tap(() => {
                 onResolve({
                   name: that.symbol,
-                  full_name: that.symbol,
+                  full_name: that.symbol, // display on the chart
                   base_name: that.symbol,
-                  // enable minute
+                  // enable minute and others
                   has_intraday: true
                 });
               })
@@ -134,16 +139,21 @@ export class TvComponent implements OnInit {
             try {
               const data = e;
               if (data) {
+                // realtime data
+                // data's timestamp === recent one ? Update the recent one : A new timestamp data
+                // in this example mock data always return a new timestamp
                 onTick(data);
               }
             } catch (e) {
               console.error(e);
             }
           };
+
+          // subscribe the realtime data
           that.ws.send(that.wsMessage);
         },
         unsubscribeBars() {
-          that.ws.close();
+          that.ws.send('stop receiving data or just close websocket');
         },
       },
     });
