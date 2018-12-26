@@ -76,7 +76,6 @@ export class TvComponent implements OnInit, OnDestroy {
         'main_series_scale_menu',
         'star_some_intervals_by_default',
         'datasource_copypaste',
-        'right_bar_stays_on_scroll',
         'header_indicators',
         // 'context_menus',
         // 'compare_symbol',
