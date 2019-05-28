@@ -14,9 +14,9 @@ export class TvComponent implements OnInit, OnDestroy {
   tradingview;
 
   ws;
-  wsMessage = 'get data';
+  wsMessage = 'you may need to send specific message to subscribe data, eg: BTC';
 
-  historyGranularityMap = {
+  granularityMap = {
     '1': 60,
     '3': 180,
     '5': 300,
@@ -85,8 +85,8 @@ export class TvComponent implements OnInit, OnDestroy {
         'remove_library_container_border',
       ],
       allow_symbol_change: true,
-      enabled_features: ['study_templates'],
-      charts_storage_url: 'http://saveload.tradingview.com',
+      // enabled_features: ['study_templates'],
+      // charts_storage_url: 'http://saveload.tradingview.com',
       charts_storage_api_version: '1.1',
       client_id: 'tradingview.com',
       user_id: 'public_user_id',
@@ -106,7 +106,7 @@ export class TvComponent implements OnInit, OnDestroy {
         getBars(symbol, granularity, startTime, endTime, onResult, onError, isFirst) {
           console.log('getBars:', arguments);
           that.mockService.getHistoryList({
-            granularity: that.historyGranularityMap[granularity],
+            granularity: that.granularityMap[granularity],
             startTime,
             endTime
           }).subscribe((data: any) => {
@@ -123,8 +123,7 @@ export class TvComponent implements OnInit, OnDestroy {
                   name: that.symbol,
                   full_name: that.symbol, // display on the chart
                   base_name: that.symbol,
-                  // enable minute and others
-                  has_intraday: true
+                  has_intraday: true, // enable minute and others
                 });
               })
             ).subscribe();
@@ -133,7 +132,7 @@ export class TvComponent implements OnInit, OnDestroy {
           console.log('serverTime:', arguments);
         },
         subscribeBars(symbol, granularity, onTick) {
-          console.log('subscribe');
+          console.log('subscribe, arg:', arguments);
           that.ws.onmessage = (e) => {
             try {
               const data = e;
@@ -149,7 +148,7 @@ export class TvComponent implements OnInit, OnDestroy {
           };
 
           // subscribe the realtime data
-          that.ws.send(that.wsMessage);
+          that.ws.send(`${that.wsMessage}_kline_${that.granularityMap[granularity]}`);
         },
         unsubscribeBars() {
           that.ws.send('stop receiving data or just close websocket');
