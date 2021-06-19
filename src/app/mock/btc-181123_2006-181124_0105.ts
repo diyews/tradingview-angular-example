@@ -6,7 +6,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3920.95,
   'amount': 2.6494,
   'count': 50,
-  'vol': 10382.654567
+  'volume': 10382.654567
 }, {
   'time': 1545595620000,
   'open': 3915.58,
@@ -15,7 +15,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3915.58,
   'amount': 31.3374,
   'count': 196,
-  'vol': 122540.368748
+  'volume': 122540.368748
 }, {
   'time': 1545595680000,
   'open': 3911.82,
@@ -24,7 +24,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3913.59,
   'amount': 1.2824,
   'count': 36,
-  'vol': 5017.295088
+  'volume': 5017.295088
 }, {
   'time': 1545595740000,
   'open': 3910.61,
@@ -33,7 +33,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3910.61,
   'amount': 6.417655824483938,
   'count': 37,
-  'vol': 25084.547188
+  'volume': 25084.547188
 }, {
   'time': 1545595800000,
   'open': 3908,
@@ -42,7 +42,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3908,
   'amount': 5.734735049846349,
   'count': 96,
-  'vol': 22398.001773
+  'volume': 22398.001773
 }, {
   'time': 1545595860000,
   'open': 3904.53,
@@ -51,7 +51,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3911.48,
   'amount': 6.79244631682586,
   'count': 59,
-  'vol': 26535.201696
+  'volume': 26535.201696
 }, {
   'time': 1545595920000,
   'open': 3910.64,
@@ -60,7 +60,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3911.19,
   'amount': 10.6691,
   'count': 75,
-  'vol': 41711.810846
+  'volume': 41711.810846
 }, {
   'time': 1545595980000,
   'open': 3910.95,
@@ -69,7 +69,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3914.73,
   'amount': 2.6783,
   'count': 35,
-  'vol': 10482.124166
+  'volume': 10482.124166
 }, {
   'time': 1545596040000,
   'open': 3914.31,
@@ -78,7 +78,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3914.31,
   'amount': 4.4520148393593075,
   'count': 37,
-  'vol': 17420.59877762
+  'volume': 17420.59877762
 }, {
   'time': 1545596100000,
   'open': 3912.92,
@@ -87,7 +87,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3916.53,
   'amount': 1.4375,
   'count': 32,
-  'vol': 5624.996441
+  'volume': 5624.996441
 }, {
   'time': 1545596160000,
   'open': 3915.4,
@@ -96,7 +96,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.44,
   'amount': 11.074641427959069,
   'count': 112,
-  'vol': 43435.55565132
+  'volume': 43435.55565132
 }, {
   'time': 1545596220000,
   'open': 3922.08,
@@ -105,7 +105,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.47,
   'amount': 8.1356,
   'count': 136,
-  'vol': 31899.973721
+  'volume': 31899.973721
 }, {
   'time': 1545596280000,
   'open': 3925.31,
@@ -114,7 +114,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3929.99,
   'amount': 7.2071,
   'count': 96,
-  'vol': 28288.055944
+  'volume': 28288.055944
 }, {
   'time': 1545596340000,
   'open': 3925.16,
@@ -123,7 +123,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.16,
   'amount': 0.9036,
   'count': 20,
-  'vol': 3544.389167
+  'volume': 3544.389167
 }, {
   'time': 1545596400000,
   'open': 3920.79,
@@ -132,7 +132,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3928.81,
   'amount': 6.9504,
   'count': 44,
-  'vol': 27273.102012
+  'volume': 27273.102012
 }, {
   'time': 1545596460000,
   'open': 3927.84,
@@ -141,7 +141,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.17,
   'amount': 5.5312,
   'count': 71,
-  'vol': 21729.200603
+  'volume': 21729.200603
 }, {
   'time': 1545596520000,
   'open': 3925.44,
@@ -150,7 +150,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.87,
   'amount': 18.766416788529444,
   'count': 111,
-  'vol': 73701.664237
+  'volume': 73701.664237
 }, {
   'time': 1545596580000,
   'open': 3923.87,
@@ -159,7 +159,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.41,
   'amount': 5.683518305300905,
   'count': 35,
-  'vol': 22300.73222496
+  'volume': 22300.73222496
 }, {
   'time': 1545596640000,
   'open': 3922.4,
@@ -168,7 +168,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.43,
   'amount': 4.739220279412065,
   'count': 46,
-  'vol': 18578.08270412
+  'volume': 18578.08270412
 }, {
   'time': 1545596700000,
   'open': 3918.23,
@@ -177,7 +177,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919.44,
   'amount': 3.710854899323265,
   'count': 37,
-  'vol': 14539.14573631
+  'volume': 14539.14573631
 }, {
   'time': 1545596760000,
   'open': 3916.85,
@@ -186,7 +186,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3917.88,
   'amount': 1.9814,
   'count': 26,
-  'vol': 7760.490482
+  'volume': 7760.490482
 }, {
   'time': 1545596820000,
   'open': 3916.82,
@@ -195,7 +195,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3917.51,
   'amount': 3.203,
   'count': 38,
-  'vol': 12543.175451
+  'volume': 12543.175451
 }, {
   'time': 1545596880000,
   'open': 3915.21,
@@ -204,7 +204,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3918.09,
   'amount': 1.113,
   'count': 39,
-  'vol': 4358.376304
+  'volume': 4358.376304
 }, {
   'time': 1545596940000,
   'open': 3918.18,
@@ -213,7 +213,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.54,
   'amount': 14.533,
   'count': 102,
-  'vol': 57025.050161
+  'volume': 57025.050161
 }, {
   'time': 1545597000000,
   'open': 3920.77,
@@ -222,7 +222,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3920.77,
   'amount': 5.518229793251023,
   'count': 81,
-  'vol': 21609.08130213139
+  'volume': 21609.08130213139
 }, {
   'time': 1545597060000,
   'open': 3908.45,
@@ -231,7 +231,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3918.12,
   'amount': 11.188309775742098,
   'count': 121,
-  'vol': 43782.71338653
+  'volume': 43782.71338653
 }, {
   'time': 1545597120000,
   'open': 3916.15,
@@ -240,7 +240,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.23,
   'amount': 2.2769,
   'count': 42,
-  'vol': 8924.323983
+  'volume': 8924.323983
 }, {
   'time': 1545597180000,
   'open': 3921.03,
@@ -249,7 +249,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3923.77,
   'amount': 8.305542612647999,
   'count': 74,
-  'vol': 32564.190933
+  'volume': 32564.190933
 }, {
   'time': 1545597240000,
   'open': 3917.51,
@@ -258,7 +258,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.19,
   'amount': 3.7977,
   'count': 53,
-  'vol': 14897.274348
+  'volume': 14897.274348
 }, {
   'time': 1545597300000,
   'open': 3921.5,
@@ -267,7 +267,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3921.5,
   'amount': 2.9686,
   'count': 46,
-  'vol': 11634.109757
+  'volume': 11634.109757
 }, {
   'time': 1545597360000,
   'open': 3918.74,
@@ -276,7 +276,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919.74,
   'amount': 1.4102,
   'count': 57,
-  'vol': 5523.201325
+  'volume': 5523.201325
 }, {
   'time': 1545597420000,
   'open': 3914.15,
@@ -285,7 +285,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.07,
   'amount': 8.9157,
   'count': 83,
-  'vol': 34918.423295
+  'volume': 34918.423295
 }, {
   'time': 1545597480000,
   'open': 3916.96,
@@ -294,7 +294,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.55,
   'amount': 7.2153,
   'count': 97,
-  'vol': 28294.37888
+  'volume': 28294.37888
 }, {
   'time': 1545597540000,
   'open': 3922.19,
@@ -303,7 +303,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.02,
   'amount': 2.4399,
   'count': 40,
-  'vol': 9568.192585
+  'volume': 9568.192585
 }, {
   'time': 1545597600000,
   'open': 3918.7,
@@ -312,7 +312,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.79,
   'amount': 1.754297691214625,
   'count': 37,
-  'vol': 6878.857166
+  'volume': 6878.857166
 }, {
   'time': 1545597660000,
   'open': 3921.19,
@@ -321,7 +321,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3921.19,
   'amount': 3.7597,
   'count': 47,
-  'vol': 14731.930322
+  'volume': 14731.930322
 }, {
   'time': 1545597720000,
   'open': 3921.08,
@@ -330,7 +330,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.69,
   'amount': 4.1617,
   'count': 62,
-  'vol': 16323.263617
+  'volume': 16323.263617
 }, {
   'time': 1545597780000,
   'open': 3921.05,
@@ -339,7 +339,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.34,
   'amount': 2.481283858384118,
   'count': 56,
-  'vol': 9736.2059905
+  'volume': 9736.2059905
 }, {
   'time': 1545597840000,
   'open': 3927.56,
@@ -348,7 +348,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.44,
   'amount': 10.91627529268147,
   'count': 159,
-  'vol': 42943.31075
+  'volume': 42943.31075
 }, {
   'time': 1545597900000,
   'open': 3937.54,
@@ -357,7 +357,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.09,
   'amount': 15.711093725879334,
   'count': 157,
-  'vol': 61785.79985459
+  'volume': 61785.79985459
 }, {
   'time': 1545597960000,
   'open': 3932.51,
@@ -366,7 +366,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.51,
   'amount': 13.0184,
   'count': 65,
-  'vol': 51138.2109
+  'volume': 51138.2109
 }, {
   'time': 1545598020000,
   'open': 3927.91,
@@ -375,7 +375,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.09,
   'amount': 2.1967,
   'count': 42,
-  'vol': 8631.892303
+  'volume': 8631.892303
 }, {
   'time': 1545598080000,
   'open': 3931.91,
@@ -384,7 +384,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.09,
   'amount': 3.3394980005184878,
   'count': 64,
-  'vol': 13136.894765
+  'volume': 13136.894765
 }, {
   'time': 1545598140000,
   'open': 3933.52,
@@ -393,7 +393,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.39,
   'amount': 3.591289423364062,
   'count': 49,
-  'vol': 14133.625718
+  'volume': 14133.625718
 }, {
   'time': 1545598200000,
   'open': 3936.61,
@@ -402,7 +402,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.61,
   'amount': 4.7224000320253765,
   'count': 34,
-  'vol': 18575.753901
+  'volume': 18575.753901
 }, {
   'time': 1545598260000,
   'open': 3932.51,
@@ -411,7 +411,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.56,
   'amount': 1.3119,
   'count': 29,
-  'vol': 5157.514888
+  'volume': 5157.514888
 }, {
   'time': 1545598320000,
   'open': 3930.15,
@@ -420,7 +420,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.76,
   'amount': 2.0674,
   'count': 13,
-  'vol': 8125.287038
+  'volume': 8125.287038
 }, {
   'time': 1545598380000,
   'open': 3931.54,
@@ -429,7 +429,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.13,
   'amount': 1.3813,
   'count': 14,
-  'vol': 5431.267363
+  'volume': 5431.267363
 }, {
   'time': 1545598440000,
   'open': 3935.74,
@@ -438,7 +438,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.3,
   'amount': 2.3958,
   'count': 42,
-  'vol': 9428.64404
+  'volume': 9428.64404
 }, {
   'time': 1545598500000,
   'open': 3937.49,
@@ -447,7 +447,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.86,
   'amount': 4.7534,
   'count': 62,
-  'vol': 18705.741879
+  'volume': 18705.741879
 }, {
   'time': 1545598560000,
   'open': 3930.7,
@@ -456,7 +456,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.01,
   'amount': 6.7871,
   'count': 74,
-  'vol': 26700.907256
+  'volume': 26700.907256
 }, {
   'time': 1545598620000,
   'open': 3933.47,
@@ -465,7 +465,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.64,
   'amount': 1.936054189681424,
   'count': 49,
-  'vol': 7621.217088
+  'volume': 7621.217088
 }, {
   'time': 1545598680000,
   'open': 3938.56,
@@ -474,7 +474,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3941.09,
   'amount': 2.2721,
   'count': 62,
-  'vol': 8948.444527
+  'volume': 8948.444527
 }, {
   'time': 1545598740000,
   'open': 3937.61,
@@ -483,7 +483,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3939.73,
   'amount': 1.5454,
   'count': 48,
-  'vol': 6086.396394
+  'volume': 6086.396394
 }, {
   'time': 1545598800000,
   'open': 3939.19,
@@ -492,7 +492,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3940.15,
   'amount': 1.1774,
   'count': 32,
-  'vol': 4638.497767
+  'volume': 4638.497767
 }, {
   'time': 1545598860000,
   'open': 3938.04,
@@ -501,7 +501,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.46,
   'amount': 1.0392,
   'count': 49,
-  'vol': 4092.08
+  'volume': 4092.08
 }, {
   'time': 1545598920000,
   'open': 3937.78,
@@ -510,7 +510,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.29,
   'amount': 0.8415,
   'count': 24,
-  'vol': 3313.249109
+  'volume': 3313.249109
 }, {
   'time': 1545598980000,
   'open': 3937.4,
@@ -519,7 +519,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.59,
   'amount': 4.065612565421939,
   'count': 39,
-  'vol': 15994.74723526
+  'volume': 15994.74723526
 }, {
   'time': 1545599040000,
   'open': 3930.69,
@@ -528,7 +528,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.95,
   'amount': 1.3386,
   'count': 26,
-  'vol': 5263.914208
+  'volume': 5263.914208
 }, {
   'time': 1545599100000,
   'open': 3932.25,
@@ -537,7 +537,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.94,
   'amount': 6.5182,
   'count': 38,
-  'vol': 25629.750181
+  'volume': 25629.750181
 }, {
   'time': 1545599160000,
   'open': 3931.34,
@@ -546,7 +546,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.46,
   'amount': 7.1751,
   'count': 54,
-  'vol': 28217.612016
+  'volume': 28217.612016
 }, {
   'time': 1545599220000,
   'open': 3933.47,
@@ -555,7 +555,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.14,
   'amount': 1.5349,
   'count': 27,
-  'vol': 6038.532258
+  'volume': 6038.532258
 }, {
   'time': 1545599280000,
   'open': 3936.55,
@@ -564,7 +564,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.49,
   'amount': 4.4013,
   'count': 58,
-  'vol': 17328.643269
+  'volume': 17328.643269
 }, {
   'time': 1545599340000,
   'open': 3938.89,
@@ -573,7 +573,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3940.93,
   'amount': 4.9441,
   'count': 38,
-  'vol': 19473.55667
+  'volume': 19473.55667
 }, {
   'time': 1545599400000,
   'open': 3938.47,
@@ -582,7 +582,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3943.33,
   'amount': 3.6492,
   'count': 32,
-  'vol': 14377.061675
+  'volume': 14377.061675
 }, {
   'time': 1545599460000,
   'open': 3941.92,
@@ -591,7 +591,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3951.48,
   'amount': 19.0896,
   'count': 152,
-  'vol': 75321.243486
+  'volume': 75321.243486
 }, {
   'time': 1545599520000,
   'open': 3950.16,
@@ -600,7 +600,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3952.97,
   'amount': 10.052,
   'count': 144,
-  'vol': 39678.46404
+  'volume': 39678.46404
 }, {
   'time': 1545599580000,
   'open': 3945.81,
@@ -609,7 +609,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3947.95,
   'amount': 2.2663,
   'count': 39,
-  'vol': 8944.416663
+  'volume': 8944.416663
 }, {
   'time': 1545599640000,
   'open': 3947,
@@ -618,7 +618,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3947.1,
   'amount': 8.1658,
   'count': 69,
-  'vol': 32210.599269
+  'volume': 32210.599269
 }, {
   'time': 1545599700000,
   'open': 3940.76,
@@ -627,7 +627,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3944.56,
   'amount': 10.508098858128854,
   'count': 101,
-  'vol': 41406.605846
+  'volume': 41406.605846
 }, {
   'time': 1545599760000,
   'open': 3937.29,
@@ -636,7 +636,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.73,
   'amount': 3.2426,
   'count': 80,
-  'vol': 12766.614728
+  'volume': 12766.614728
 }, {
   'time': 1545599820000,
   'open': 3935.68,
@@ -645,7 +645,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.05,
   'amount': 1.7317,
   'count': 39,
-  'vol': 6817.557127
+  'volume': 6817.557127
 }, {
   'time': 1545599880000,
   'open': 3936.99,
@@ -654,7 +654,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3948.3,
   'amount': 15.7253,
   'count': 150,
-  'vol': 62027.095291
+  'volume': 62027.095291
 }, {
   'time': 1545599940000,
   'open': 3942.07,
@@ -663,7 +663,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3947.85,
   'amount': 5.9625,
   'count': 54,
-  'vol': 23520.403807
+  'volume': 23520.403807
 }, {
   'time': 1545600000000,
   'open': 3947.76,
@@ -672,7 +672,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3948.93,
   'amount': 6.5566,
   'count': 60,
-  'vol': 25861.074679
+  'volume': 25861.074679
 }, {
   'time': 1545600060000,
   'open': 3943.58,
@@ -681,7 +681,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3943.99,
   'amount': 1.8408992182825035,
   'count': 48,
-  'vol': 7257.041934
+  'volume': 7257.041934
 }, {
   'time': 1545600120000,
   'open': 3943.46,
@@ -690,7 +690,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3946.16,
   'amount': 4.4229,
   'count': 45,
-  'vol': 17447.576058
+  'volume': 17447.576058
 }, {
   'time': 1545600180000,
   'open': 3946.03,
@@ -699,7 +699,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3949.95,
   'amount': 8.819229845089179,
   'count': 86,
-  'vol': 34814.17183561
+  'volume': 34814.17183561
 }, {
   'time': 1545600240000,
   'open': 3948,
@@ -708,7 +708,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3954.43,
   'amount': 4.93,
   'count': 64,
-  'vol': 19475.314857
+  'volume': 19475.314857
 }, {
   'time': 1545600300000,
   'open': 3954.36,
@@ -717,7 +717,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3954.97,
   'amount': 17.7092,
   'count': 149,
-  'vol': 69986.674812
+  'volume': 69986.674812
 }, {
   'time': 1545600360000,
   'open': 3945.36,
@@ -726,7 +726,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3948.05,
   'amount': 1.4839,
   'count': 30,
-  'vol': 5856.112596
+  'volume': 5856.112596
 }, {
   'time': 1545600420000,
   'open': 3946.36,
@@ -735,7 +735,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3948.26,
   'amount': 4.8448,
   'count': 47,
-  'vol': 19119.585917
+  'volume': 19119.585917
 }, {
   'time': 1545600480000,
   'open': 3947.65,
@@ -744,7 +744,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3948.4,
   'amount': 1.8645,
   'count': 36,
-  'vol': 7359.221465
+  'volume': 7359.221465
 }, {
   'time': 1545600540000,
   'open': 3947.59,
@@ -753,7 +753,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3947.59,
   'amount': 3.4008,
   'count': 58,
-  'vol': 13418.441823
+  'volume': 13418.441823
 }, {
   'time': 1545600600000,
   'open': 3941.28,
@@ -762,7 +762,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3942.32,
   'amount': 12.680310328318946,
   'count': 75,
-  'vol': 49958.29184613
+  'volume': 49958.29184613
 }, {
   'time': 1545600660000,
   'open': 3937.59,
@@ -771,7 +771,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3945.73,
   'amount': 10.57,
   'count': 88,
-  'vol': 41678.702534
+  'volume': 41678.702534
 }, {
   'time': 1545600720000,
   'open': 3945.94,
@@ -780,7 +780,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3945.94,
   'amount': 1.7193,
   'count': 57,
-  'vol': 6780.34045
+  'volume': 6780.34045
 }, {
   'time': 1545600780000,
   'open': 3942.46,
@@ -789,7 +789,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3942.46,
   'amount': 8.852162883313042,
   'count': 76,
-  'vol': 34848.3311678
+  'volume': 34848.3311678
 }, {
   'time': 1545600840000,
   'open': 3934.95,
@@ -798,7 +798,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.06,
   'amount': 2.2307,
   'count': 70,
-  'vol': 8778.806471
+  'volume': 8778.806471
 }, {
   'time': 1545600900000,
   'open': 3938.1,
@@ -807,7 +807,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3939.51,
   'amount': 1.9563,
   'count': 35,
-  'vol': 7703.065286
+  'volume': 7703.065286
 }, {
   'time': 1545600960000,
   'open': 3938.25,
@@ -816,7 +816,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.27,
   'amount': 4.3032,
   'count': 48,
-  'vol': 16938.56607
+  'volume': 16938.56607
 }, {
   'time': 1545601020000,
   'open': 3935.8,
@@ -825,7 +825,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.1,
   'amount': 3.8502,
   'count': 43,
-  'vol': 15158.169032
+  'volume': 15158.169032
 }, {
   'time': 1545601080000,
   'open': 3936.05,
@@ -834,7 +834,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.34,
   'amount': 1.296135442475065,
   'count': 50,
-  'vol': 5100.709647
+  'volume': 5100.709647
 }, {
   'time': 1545601140000,
   'open': 3935.25,
@@ -843,7 +843,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.4,
   'amount': 1.5555,
   'count': 32,
-  'vol': 6122.245259
+  'volume': 6122.245259
 }, {
   'time': 1545601200000,
   'open': 3936.14,
@@ -852,7 +852,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.41,
   'amount': 8.7553,
   'count': 25,
-  'vol': 34458.005571
+  'volume': 34458.005571
 }, {
   'time': 1545601260000,
   'open': 3936.11,
@@ -861,7 +861,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.51,
   'amount': 4.762506533118966,
   'count': 44,
-  'vol': 18749.830133
+  'volume': 18749.830133
 }, {
   'time': 1545601320000,
   'open': 3935.86,
@@ -870,7 +870,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.97,
   'amount': 4.5626,
   'count': 30,
-  'vol': 17957.066572
+  'volume': 17957.066572
 }, {
   'time': 1545601380000,
   'open': 3934.88,
@@ -879,7 +879,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.88,
   'amount': 9.4831,
   'count': 32,
-  'vol': 37301.723001
+  'volume': 37301.723001
 }, {
   'time': 1545601440000,
   'open': 3932.83,
@@ -888,7 +888,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.83,
   'amount': 16.998800266475456,
   'count': 51,
-  'vol': 66817.381812
+  'volume': 66817.381812
 }, {
   'time': 1545601500000,
   'open': 3929.52,
@@ -897,7 +897,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3929.52,
   'amount': 12.3244,
   'count': 100,
-  'vol': 48384.259691
+  'volume': 48384.259691
 }, {
   'time': 1545601560000,
   'open': 3925,
@@ -906,7 +906,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.44,
   'amount': 14.1284,
   'count': 67,
-  'vol': 55445.861756
+  'volume': 55445.861756
 }, {
   'time': 1545601620000,
   'open': 3923.81,
@@ -915,7 +915,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.84,
   'amount': 15.1771,
   'count': 72,
-  'vol': 59535.938427
+  'volume': 59535.938427
 }, {
   'time': 1545601680000,
   'open': 3926.77,
@@ -924,7 +924,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.54,
   'amount': 23.4884,
   'count': 66,
-  'vol': 92205.559564
+  'volume': 92205.559564
 }, {
   'time': 1545601740000,
   'open': 3924.61,
@@ -933,7 +933,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.02,
   'amount': 20.5572,
   'count': 71,
-  'vol': 80624.415389
+  'volume': 80624.415389
 }, {
   'time': 1545601800000,
   'open': 3924.51,
@@ -942,7 +942,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.75,
   'amount': 23.60549538686875,
   'count': 41,
-  'vol': 92653.967643
+  'volume': 92653.967643
 }, {
   'time': 1545601860000,
   'open': 3925.45,
@@ -951,7 +951,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.41,
   'amount': 13.09534497319991,
   'count': 73,
-  'vol': 51408.759286
+  'volume': 51408.759286
 }, {
   'time': 1545601920000,
   'open': 3925.67,
@@ -960,7 +960,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.28,
   'amount': 22.0919,
   'count': 39,
-  'vol': 86729.933872
+  'volume': 86729.933872
 }, {
   'time': 1545601980000,
   'open': 3925.03,
@@ -969,7 +969,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.86,
   'amount': 24.6371,
   'count': 55,
-  'vol': 96711.959994
+  'volume': 96711.959994
 }, {
   'time': 1545602040000,
   'open': 3927.95,
@@ -978,7 +978,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.39,
   'amount': 19.5134,
   'count': 79,
-  'vol': 76696.404155
+  'volume': 76696.404155
 }, {
   'time': 1545602100000,
   'open': 3931.86,
@@ -987,7 +987,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937,
   'amount': 38.2892,
   'count': 93,
-  'vol': 150601.701063
+  'volume': 150601.701063
 }, {
   'time': 1545602160000,
   'open': 3935.15,
@@ -996,7 +996,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3939.15,
   'amount': 16.950698386724056,
   'count': 70,
-  'vol': 66753.62026417723
+  'volume': 66753.62026417723
 }, {
   'time': 1545602220000,
   'open': 3937.47,
@@ -1005,7 +1005,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.66,
   'amount': 19.84286009598419,
   'count': 93,
-  'vol': 78035.04407179
+  'volume': 78035.04407179
 }, {
   'time': 1545602280000,
   'open': 3932.23,
@@ -1014,7 +1014,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3939.49,
   'amount': 26.356156548739673,
   'count': 117,
-  'vol': 103724.45060376
+  'volume': 103724.45060376
 }, {
   'time': 1545602340000,
   'open': 3937.56,
@@ -1023,7 +1023,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.56,
   'amount': 17.457281753322878,
   'count': 94,
-  'vol': 68666.95031293
+  'volume': 68666.95031293
 }, {
   'time': 1545602400000,
   'open': 3929.55,
@@ -1032,7 +1032,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.57,
   'amount': 28.80078441438699,
   'count': 98,
-  'vol': 113104.81705889628
+  'volume': 113104.81705889628
 }, {
   'time': 1545602460000,
   'open': 3926.75,
@@ -1041,7 +1041,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.02,
   'amount': 3.869,
   'count': 53,
-  'vol': 15201.284333
+  'volume': 15201.284333
 }, {
   'time': 1545602520000,
   'open': 3929.46,
@@ -1050,7 +1050,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.92,
   'amount': 20.42251783242407,
   'count': 101,
-  'vol': 80238.811333
+  'volume': 80238.811333
 }, {
   'time': 1545602580000,
   'open': 3925.77,
@@ -1059,7 +1059,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.89,
   'amount': 29.499,
   'count': 97,
-  'vol': 115796.232113
+  'volume': 115796.232113
 }, {
   'time': 1545602640000,
   'open': 3923.04,
@@ -1068,7 +1068,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.57,
   'amount': 15.254329005822356,
   'count': 43,
-  'vol': 59854.59656833
+  'volume': 59854.59656833
 }, {
   'time': 1545602700000,
   'open': 3924.32,
@@ -1077,7 +1077,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.46,
   'amount': 5.7951,
   'count': 49,
-  'vol': 22749.682282
+  'volume': 22749.682282
 }, {
   'time': 1545602760000,
   'open': 3924.84,
@@ -1086,7 +1086,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.47,
   'amount': 29.1128,
   'count': 94,
-  'vol': 114201.00159
+  'volume': 114201.00159
 }, {
   'time': 1545602820000,
   'open': 3924.33,
@@ -1095,7 +1095,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.78,
   'amount': 10.142,
   'count': 40,
-  'vol': 39802.179869
+  'volume': 39802.179869
 }, {
   'time': 1545602880000,
   'open': 3923.23,
@@ -1104,7 +1104,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.19,
   'amount': 26.4123,
   'count': 43,
-  'vol': 103620.364922
+  'volume': 103620.364922
 }, {
   'time': 1545602940000,
   'open': 3923.95,
@@ -1113,7 +1113,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3929.41,
   'amount': 19.98282410025188,
   'count': 72,
-  'vol': 78449.57498488
+  'volume': 78449.57498488
 }, {
   'time': 1545603000000,
   'open': 3925.76,
@@ -1122,7 +1122,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.73,
   'amount': 19.2385,
   'count': 93,
-  'vol': 75604.026341
+  'volume': 75604.026341
 }, {
   'time': 1545603060000,
   'open': 3930.07,
@@ -1131,7 +1131,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.99,
   'amount': 10.3461,
   'count': 76,
-  'vol': 40682.521952
+  'volume': 40682.521952
 }, {
   'time': 1545603120000,
   'open': 3932.27,
@@ -1140,7 +1140,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.63,
   'amount': 34.0194,
   'count': 121,
-  'vol': 133650.102086
+  'volume': 133650.102086
 }, {
   'time': 1545603180000,
   'open': 3927.99,
@@ -1149,7 +1149,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.99,
   'amount': 14.3462,
   'count': 83,
-  'vol': 56297.621491
+  'volume': 56297.621491
 }, {
   'time': 1545603240000,
   'open': 3922.44,
@@ -1158,7 +1158,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3928.03,
   'amount': 30.664809203431485,
   'count': 83,
-  'vol': 120327.02192646
+  'volume': 120327.02192646
 }, {
   'time': 1545603300000,
   'open': 3926.15,
@@ -1167,7 +1167,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3928.04,
   'amount': 3.947,
   'count': 32,
-  'vol': 15502.597704
+  'volume': 15502.597704
 }, {
   'time': 1545603360000,
   'open': 3927.49,
@@ -1176,7 +1176,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.92,
   'amount': 24.481464248609953,
   'count': 54,
-  'vol': 96146.1532104
+  'volume': 96146.1532104
 }, {
   'time': 1545603420000,
   'open': 3927.52,
@@ -1185,7 +1185,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.57,
   'amount': 25.33250007841999,
   'count': 70,
-  'vol': 99433.434601
+  'volume': 99433.434601
 }, {
   'time': 1545603480000,
   'open': 3923.52,
@@ -1194,7 +1194,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.02,
   'amount': 2.7788,
   'count': 48,
-  'vol': 10900.069297
+  'volume': 10900.069297
 }, {
   'time': 1545603540000,
   'open': 3923.16,
@@ -1203,7 +1203,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3923.16,
   'amount': 9.0486,
   'count': 26,
-  'vol': 35490.745623
+  'volume': 35490.745623
 }, {
   'time': 1545603600000,
   'open': 3921.67,
@@ -1212,7 +1212,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3921.67,
   'amount': 15.8492,
   'count': 124,
-  'vol': 62093.226584
+  'volume': 62093.226584
 }, {
   'time': 1545603660000,
   'open': 3916.73,
@@ -1221,7 +1221,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3918.8,
   'amount': 17.2309,
   'count': 51,
-  'vol': 67507.407651
+  'volume': 67507.407651
 }, {
   'time': 1545603720000,
   'open': 3916.87,
@@ -1230,7 +1230,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919.52,
   'amount': 8.025812030038734,
   'count': 34,
-  'vol': 31453.55032
+  'volume': 31453.55032
 }, {
   'time': 1545603780000,
   'open': 3918.03,
@@ -1239,7 +1239,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919.83,
   'amount': 14.5777,
   'count': 31,
-  'vol': 57124.561276
+  'volume': 57124.561276
 }, {
   'time': 1545603840000,
   'open': 3918.95,
@@ -1248,7 +1248,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919,
   'amount': 19.2721,
   'count': 38,
-  'vol': 75520.071379
+  'volume': 75520.071379
 }, {
   'time': 1545603900000,
   'open': 3917.99,
@@ -1257,7 +1257,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3918.61,
   'amount': 16.303599719260276,
   'count': 50,
-  'vol': 63877.107609
+  'volume': 63877.107609
 }, {
   'time': 1545603960000,
   'open': 3918.32,
@@ -1266,7 +1266,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3918.32,
   'amount': 30.9665,
   'count': 80,
-  'vol': 121287.993562
+  'volume': 121287.993562
 }, {
   'time': 1545604020000,
   'open': 3914.33,
@@ -1275,7 +1275,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3914.83,
   'amount': 24.92,
   'count': 162,
-  'vol': 97474.89565
+  'volume': 97474.89565
 }, {
   'time': 1545604080000,
   'open': 3912.34,
@@ -1284,7 +1284,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3912.95,
   'amount': 39.80613120856292,
   'count': 169,
-  'vol': 155651.238596
+  'volume': 155651.238596
 }, {
   'time': 1545604140000,
   'open': 3906.31,
@@ -1293,7 +1293,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3906.31,
   'amount': 56.591,
   'count': 152,
-  'vol': 220871.15498
+  'volume': 220871.15498
 }, {
   'time': 1545604200000,
   'open': 3902.36,
@@ -1302,7 +1302,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3902.36,
   'amount': 104.94481083748725,
   'count': 411,
-  'vol': 408943.08126608224
+  'volume': 408943.08126608224
 }, {
   'time': 1545604260000,
   'open': 3894.22,
@@ -1311,7 +1311,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3905.26,
   'amount': 222.1311,
   'count': 479,
-  'vol': 864932.506027
+  'volume': 864932.506027
 }, {
   'time': 1545604320000,
   'open': 3900.21,
@@ -1320,7 +1320,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3901.36,
   'amount': 23.381960206438222,
   'count': 207,
-  'vol': 91087.271321
+  'volume': 91087.271321
 }, {
   'time': 1545604380000,
   'open': 3889.57,
@@ -1329,7 +1329,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3897.95,
   'amount': 20.2779,
   'count': 125,
-  'vol': 78928.824837
+  'volume': 78928.824837
 }, {
   'time': 1545604440000,
   'open': 3897.94,
@@ -1338,7 +1338,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3902.95,
   'amount': 26.1656,
   'count': 76,
-  'vol': 102025.172012
+  'volume': 102025.172012
 }, {
   'time': 1545604500000,
   'open': 3902.95,
@@ -1347,7 +1347,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3911.36,
   'amount': 19.05252110764433,
   'count': 115,
-  'vol': 74455.87415486
+  'volume': 74455.87415486
 }, {
   'time': 1545604560000,
   'open': 3908.75,
@@ -1356,7 +1356,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3909.85,
   'amount': 14.5468,
   'count': 43,
-  'vol': 56849.93244
+  'volume': 56849.93244
 }, {
   'time': 1545604620000,
   'open': 3907.41,
@@ -1365,7 +1365,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3907.45,
   'amount': 22.8787,
   'count': 70,
-  'vol': 89381.794543
+  'volume': 89381.794543
 }, {
   'time': 1545604680000,
   'open': 3905.52,
@@ -1374,7 +1374,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3905.52,
   'amount': 21.723,
   'count': 57,
-  'vol': 84776.967893
+  'volume': 84776.967893
 }, {
   'time': 1545604740000,
   'open': 3902.16,
@@ -1383,7 +1383,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3904.55,
   'amount': 35.9406,
   'count': 58,
-  'vol': 140282.631178
+  'volume': 140282.631178
 }, {
   'time': 1545604800000,
   'open': 3902.84,
@@ -1392,7 +1392,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3907.1,
   'amount': 15.218,
   'count': 56,
-  'vol': 59421.989726
+  'volume': 59421.989726
 }, {
   'time': 1545604860000,
   'open': 3906.88,
@@ -1401,7 +1401,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3914.39,
   'amount': 27.7121,
   'count': 124,
-  'vol': 108400.886932
+  'volume': 108400.886932
 }, {
   'time': 1545604920000,
   'open': 3914.05,
@@ -1410,7 +1410,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3914.06,
   'amount': 26.3361,
   'count': 53,
-  'vol': 103051.171226
+  'volume': 103051.171226
 }, {
   'time': 1545604980000,
   'open': 3912.05,
@@ -1419,7 +1419,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3912.05,
   'amount': 27.3156,
   'count': 81,
-  'vol': 106793.529554
+  'volume': 106793.529554
 }, {
   'time': 1545605040000,
   'open': 3907,
@@ -1428,7 +1428,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3908.95,
   'amount': 14.115927519154761,
   'count': 59,
-  'vol': 55151.994791
+  'volume': 55151.994791
 }, {
   'time': 1545605100000,
   'open': 3907.93,
@@ -1437,7 +1437,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3912.99,
   'amount': 14.0939,
   'count': 55,
-  'vol': 55084.81528
+  'volume': 55084.81528
 }, {
   'time': 1545605160000,
   'open': 3912.99,
@@ -1446,7 +1446,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3916.68,
   'amount': 7.643100440852875,
   'count': 90,
-  'vol': 29911.15121457
+  'volume': 29911.15121457
 }, {
   'time': 1545605220000,
   'open': 3915.69,
@@ -1455,7 +1455,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3915.69,
   'amount': 16.2344044877475,
   'count': 53,
-  'vol': 63557.37821407
+  'volume': 63557.37821407
 }, {
   'time': 1545605280000,
   'open': 3914.86,
@@ -1464,7 +1464,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3919.28,
   'amount': 10.884016159064545,
   'count': 79,
-  'vol': 42632.36531137
+  'volume': 42632.36531137
 }, {
   'time': 1545605340000,
   'open': 3919.16,
@@ -1473,7 +1473,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.37,
   'amount': 40.6423,
   'count': 228,
-  'vol': 159501.710725
+  'volume': 159501.710725
 }, {
   'time': 1545605400000,
   'open': 3926.38,
@@ -1482,7 +1482,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.68,
   'amount': 62.2637,
   'count': 241,
-  'vol': 244964.24849
+  'volume': 244964.24849
 }, {
   'time': 1545605460000,
   'open': 3937.95,
@@ -1491,7 +1491,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3941.44,
   'amount': 30.1323,
   'count': 220,
-  'vol': 118473.27103
+  'volume': 118473.27103
 }, {
   'time': 1545605520000,
   'open': 3931.15,
@@ -1500,7 +1500,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.98,
   'amount': 15.5869,
   'count': 78,
-  'vol': 61257.553022
+  'volume': 61257.553022
 }, {
   'time': 1545605580000,
   'open': 3929.11,
@@ -1509,7 +1509,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3940.58,
   'amount': 24.3865,
   'count': 127,
-  'vol': 95972.263919
+  'volume': 95972.263919
 }, {
   'time': 1545605640000,
   'open': 3937.86,
@@ -1518,7 +1518,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3938.44,
   'amount': 14.0069,
   'count': 83,
-  'vol': 55106.237804
+  'volume': 55106.237804
 }, {
   'time': 1545605700000,
   'open': 3931.56,
@@ -1527,7 +1527,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3935.61,
   'amount': 8.2119,
   'count': 81,
-  'vol': 32294.893276
+  'volume': 32294.893276
 }, {
   'time': 1545605760000,
   'open': 3934.66,
@@ -1536,7 +1536,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.69,
   'amount': 5.3634,
   'count': 44,
-  'vol': 21105.098143
+  'volume': 21105.098143
 }, {
   'time': 1545605820000,
   'open': 3936.47,
@@ -1545,7 +1545,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3937.03,
   'amount': 36.2,
   'count': 122,
-  'vol': 142399.277185
+  'volume': 142399.277185
 }, {
   'time': 1545605880000,
   'open': 3930.77,
@@ -1554,7 +1554,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.33,
   'amount': 39.9542,
   'count': 72,
-  'vol': 157128.10813
+  'volume': 157128.10813
 }, {
   'time': 1545605940000,
   'open': 3934.82,
@@ -1563,7 +1563,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3940.38,
   'amount': 41.1882,
   'count': 109,
-  'vol': 162195.175978
+  'volume': 162195.175978
 }, {
   'time': 1545606000000,
   'open': 3939.94,
@@ -1572,7 +1572,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3944.98,
   'amount': 25.2533,
   'count': 138,
-  'vol': 99555.263077
+  'volume': 99555.263077
 }, {
   'time': 1545606060000,
   'open': 3942.57,
@@ -1581,7 +1581,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3942.57,
   'amount': 35.26444365296618,
   'count': 144,
-  'vol': 138893.670399
+  'volume': 138893.670399
 }, {
   'time': 1545606120000,
   'open': 3940.15,
@@ -1590,7 +1590,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3941.5,
   'amount': 22.5085,
   'count': 70,
-  'vol': 88694.554922
+  'volume': 88694.554922
 }, {
   'time': 1545606180000,
   'open': 3937.58,
@@ -1599,7 +1599,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3939.19,
   'amount': 22.5156,
   'count': 129,
-  'vol': 88628.549622
+  'volume': 88628.549622
 }, {
   'time': 1545606240000,
   'open': 3933.58,
@@ -1608,7 +1608,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3935.37,
   'amount': 59.48352701326103,
   'count': 91,
-  'vol': 233885.97452828
+  'volume': 233885.97452828
 }, {
   'time': 1545606300000,
   'open': 3931.06,
@@ -1617,7 +1617,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.06,
   'amount': 48.14614916540102,
   'count': 146,
-  'vol': 189115.57272278253
+  'volume': 189115.57272278253
 }, {
   'time': 1545606360000,
   'open': 3927.6,
@@ -1626,7 +1626,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3929.29,
   'amount': 6.8014,
   'count': 77,
-  'vol': 26712.651305
+  'volume': 26712.651305
 }, {
   'time': 1545606420000,
   'open': 3928.35,
@@ -1635,7 +1635,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.72,
   'amount': 6.7874,
   'count': 131,
-  'vol': 26699.112616
+  'volume': 26699.112616
 }, {
   'time': 1545606480000,
   'open': 3934.53,
@@ -1644,7 +1644,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3935.38,
   'amount': 91.26175084742137,
   'count': 310,
-  'vol': 358272.33420653
+  'volume': 358272.33420653
 }, {
   'time': 1545606540000,
   'open': 3917.43,
@@ -1653,7 +1653,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.27,
   'amount': 37.55741439349171,
   'count': 119,
-  'vol': 147198.761821
+  'volume': 147198.761821
 }, {
   'time': 1545606600000,
   'open': 3918.95,
@@ -1662,7 +1662,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.43,
   'amount': 31.1701,
   'count': 116,
-  'vol': 122289.753081
+  'volume': 122289.753081
 }, {
   'time': 1545606660000,
   'open': 3921.24,
@@ -1671,7 +1671,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.65,
   'amount': 21.5483,
   'count': 99,
-  'vol': 84563.483275
+  'volume': 84563.483275
 }, {
   'time': 1545606720000,
   'open': 3921.28,
@@ -1680,7 +1680,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3921.46,
   'amount': 16.2248,
   'count': 54,
-  'vol': 63591.335592
+  'volume': 63591.335592
 }, {
   'time': 1545606780000,
   'open': 3920.58,
@@ -1689,7 +1689,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.95,
   'amount': 14.4216,
   'count': 74,
-  'vol': 56555.085859
+  'volume': 56555.085859
 }, {
   'time': 1545606840000,
   'open': 3923.76,
@@ -1698,7 +1698,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.44,
   'amount': 16.33428507822924,
   'count': 49,
-  'vol': 64090.847882
+  'volume': 64090.847882
 }, {
   'time': 1545606900000,
   'open': 3922.86,
@@ -1707,7 +1707,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.78,
   'amount': 7.2988,
   'count': 65,
-  'vol': 28636.992997
+  'volume': 28636.992997
 }, {
   'time': 1545606960000,
   'open': 3925.62,
@@ -1716,7 +1716,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.07,
   'amount': 3.1525,
   'count': 54,
-  'vol': 12384.438971
+  'volume': 12384.438971
 }, {
   'time': 1545607020000,
   'open': 3929.8,
@@ -1725,7 +1725,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3929.86,
   'amount': 30.101720284514712,
   'count': 117,
-  'vol': 118188.3275345
+  'volume': 118188.3275345
 }, {
   'time': 1545607080000,
   'open': 3922.36,
@@ -1734,7 +1734,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.12,
   'amount': 32.3838,
   'count': 92,
-  'vol': 126998.92687
+  'volume': 126998.92687
 }, {
   'time': 1545607140000,
   'open': 3925.47,
@@ -1743,7 +1743,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.87,
   'amount': 12.8722,
   'count': 44,
-  'vol': 50523.006696
+  'volume': 50523.006696
 }, {
   'time': 1545607200000,
   'open': 3922.25,
@@ -1752,7 +1752,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.25,
   'amount': 32.2674,
   'count': 75,
-  'vol': 126535.021394
+  'volume': 126535.021394
 }, {
   'time': 1545607260000,
   'open': 3920.77,
@@ -1761,7 +1761,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3920.77,
   'amount': 36.8855,
   'count': 185,
-  'vol': 144377.965487
+  'volume': 144377.965487
 }, {
   'time': 1545607320000,
   'open': 3918.54,
@@ -1770,7 +1770,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.86,
   'amount': 35.2259,
   'count': 107,
-  'vol': 138057.158929
+  'volume': 138057.158929
 }, {
   'time': 1545607380000,
   'open': 3919.9,
@@ -1779,7 +1779,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.88,
   'amount': 18.1279,
   'count': 75,
-  'vol': 71075.546764
+  'volume': 71075.546764
 }, {
   'time': 1545607440000,
   'open': 3921.95,
@@ -1788,7 +1788,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3923,
   'amount': 15.1487,
   'count': 46,
-  'vol': 59416.152107
+  'volume': 59416.152107
 }, {
   'time': 1545607500000,
   'open': 3921.93,
@@ -1797,7 +1797,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3922.95,
   'amount': 23.9147,
   'count': 67,
-  'vol': 93794.164261
+  'volume': 93794.164261
 }, {
   'time': 1545607560000,
   'open': 3922,
@@ -1806,7 +1806,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.05,
   'amount': 32.8344,
   'count': 128,
-  'vol': 128947.565709
+  'volume': 128947.565709
 }, {
   'time': 1545607620000,
   'open': 3933.04,
@@ -1815,7 +1815,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3935.19,
   'amount': 40.7488,
   'count': 86,
-  'vol': 160235.833989
+  'volume': 160235.833989
 }, {
   'time': 1545607680000,
   'open': 3933.98,
@@ -1824,7 +1824,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.69,
   'amount': 17.2281,
   'count': 59,
-  'vol': 67774.768829
+  'volume': 67774.768829
 }, {
   'time': 1545607740000,
   'open': 3933.49,
@@ -1833,7 +1833,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.49,
   'amount': 5.2675,
   'count': 104,
-  'vol': 20703.788348
+  'volume': 20703.788348
 }, {
   'time': 1545607800000,
   'open': 3931.95,
@@ -1842,7 +1842,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.3,
   'amount': 18.369980534757804,
   'count': 91,
-  'vol': 72194.81625486857
+  'volume': 72194.81625486857
 }, {
   'time': 1545607860000,
   'open': 3928.58,
@@ -1851,7 +1851,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.32,
   'amount': 10.7516,
   'count': 65,
-  'vol': 42241.985134
+  'volume': 42241.985134
 }, {
   'time': 1545607920000,
   'open': 3931.95,
@@ -1860,7 +1860,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.81,
   'amount': 12.9938,
   'count': 83,
-  'vol': 51051.688588
+  'volume': 51051.688588
 }, {
   'time': 1545607980000,
   'open': 3925.95,
@@ -1869,7 +1869,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3925.95,
   'amount': 22.002286683549592,
   'count': 52,
-  'vol': 86371.995701
+  'volume': 86371.995701
 }, {
   'time': 1545608040000,
   'open': 3924.96,
@@ -1878,7 +1878,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.95,
   'amount': 14.06060144935907,
   'count': 74,
-  'vol': 55213.83933396
+  'volume': 55213.83933396
 }, {
   'time': 1545608100000,
   'open': 3930.92,
@@ -1887,7 +1887,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.92,
   'amount': 26.00103708139733,
   'count': 131,
-  'vol': 102082.39342440561
+  'volume': 102082.39342440561
 }, {
   'time': 1545608160000,
   'open': 3922.37,
@@ -1896,7 +1896,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3924.28,
   'amount': 26.21762183625206,
   'count': 107,
-  'vol': 102782.53756286
+  'volume': 102782.53756286
 }, {
   'time': 1545608220000,
   'open': 3919.69,
@@ -1905,7 +1905,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3926.95,
   'amount': 15.065,
   'count': 72,
-  'vol': 59100.677899
+  'volume': 59100.677899
 }, {
   'time': 1545608280000,
   'open': 3926.08,
@@ -1914,7 +1914,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927,
   'amount': 17.6514,
   'count': 59,
-  'vol': 69291.221128
+  'volume': 69291.221128
 }, {
   'time': 1545608340000,
   'open': 3926.95,
@@ -1923,7 +1923,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3928.73,
   'amount': 13.8007,
   'count': 81,
-  'vol': 54187.275983
+  'volume': 54187.275983
 }, {
   'time': 1545608400000,
   'open': 3922.06,
@@ -1932,7 +1932,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3923.99,
   'amount': 19.70236212678642,
   'count': 99,
-  'vol': 77262.27470815
+  'volume': 77262.27470815
 }, {
   'time': 1545608460000,
   'open': 3922.95,
@@ -1941,7 +1941,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.49,
   'amount': 14.5148,
   'count': 62,
-  'vol': 56974.751397
+  'volume': 56974.751397
 }, {
   'time': 1545608520000,
   'open': 3926.95,
@@ -1950,7 +1950,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3927.5,
   'amount': 18.0552,
   'count': 44,
-  'vol': 70895.92336
+  'volume': 70895.92336
 }, {
   'time': 1545608580000,
   'open': 3926.41,
@@ -1959,7 +1959,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.42,
   'amount': 25.3432,
   'count': 48,
-  'vol': 99542.407647
+  'volume': 99542.407647
 }, {
   'time': 1545608640000,
   'open': 3929.06,
@@ -1968,7 +1968,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.42,
   'amount': 14.483,
   'count': 34,
-  'vol': 56907.515598
+  'volume': 56907.515598
 }, {
   'time': 1545608700000,
   'open': 3930.28,
@@ -1977,7 +1977,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.56,
   'amount': 16.490011037933087,
   'count': 56,
-  'vol': 64840.99634841
+  'volume': 64840.99634841
 }, {
   'time': 1545608760000,
   'open': 3934.34,
@@ -1986,7 +1986,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.72,
   'amount': 39.918188962066914,
   'count': 125,
-  'vol': 157113.28349859
+  'volume': 157113.28349859
 }, {
   'time': 1545608820000,
   'open': 3931.62,
@@ -1995,7 +1995,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.29,
   'amount': 22.7650012209928,
   'count': 113,
-  'vol': 89460.76550189
+  'volume': 89460.76550189
 }, {
   'time': 1545608880000,
   'open': 3928.4,
@@ -2004,7 +2004,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.44,
   'amount': 45.7224,
   'count': 57,
-  'vol': 179638.457109
+  'volume': 179638.457109
 }, {
   'time': 1545608940000,
   'open': 3930.5,
@@ -2013,7 +2013,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.81,
   'amount': 10.4191,
   'count': 72,
-  'vol': 40956.718729
+  'volume': 40956.718729
 }, {
   'time': 1545609000000,
   'open': 3930.93,
@@ -2022,7 +2022,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3933.1,
   'amount': 3.688792530654846,
   'count': 57,
-  'vol': 14499.56488328
+  'volume': 14499.56488328
 }, {
   'time': 1545609060000,
   'open': 3930.52,
@@ -2031,7 +2031,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3930.52,
   'amount': 9.455878980014809,
   'count': 67,
-  'vol': 37153.58330956
+  'volume': 37153.58330956
 }, {
   'time': 1545609120000,
   'open': 3929.85,
@@ -2040,7 +2040,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.62,
   'amount': 11.051471066020332,
   'count': 53,
-  'vol': 43429.5082998
+  'volume': 43429.5082998
 }, {
   'time': 1545609180000,
   'open': 3932,
@@ -2049,7 +2049,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.03,
   'amount': 21.7875,
   'count': 86,
-  'vol': 85696.861397
+  'volume': 85696.861397
 }, {
   'time': 1545609240000,
   'open': 3933.57,
@@ -2058,7 +2058,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.18,
   'amount': 10.833287450497943,
   'count': 67,
-  'vol': 42597.530691
+  'volume': 42597.530691
 }, {
   'time': 1545609300000,
   'open': 3932.35,
@@ -2067,7 +2067,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3934.23,
   'amount': 33.8195,
   'count': 141,
-  'vol': 132941.502984
+  'volume': 132941.502984
 }, {
   'time': 1545609360000,
   'open': 3931.62,
@@ -2076,7 +2076,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.81,
   'amount': 33.0711,
   'count': 57,
-  'vol': 129978.508107
+  'volume': 129978.508107
 }, {
   'time': 1545609420000,
   'open': 3930.61,
@@ -2085,7 +2085,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3931.32,
   'amount': 15.125852540531454,
   'count': 61,
-  'vol': 59429.87071136
+  'volume': 59429.87071136
 }, {
   'time': 1545609480000,
   'open': 3925.95,
@@ -2094,7 +2094,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3928.44,
   'amount': 21.040259257201825,
   'count': 119,
-  'vol': 82618.38922943546
+  'volume': 82618.38922943546
 }, {
   'time': 1545609540000,
   'open': 3927.96,
@@ -2103,7 +2103,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.22,
   'amount': 19.961948645196436,
   'count': 107,
-  'vol': 78447.21338643
+  'volume': 78447.21338643
 }, {
   'time': 1545609600000,
   'open': 3929.94,
@@ -2112,7 +2112,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3932.36,
   'amount': 30.860526519048733,
   'count': 119,
-  'vol': 121266.97530076306
+  'volume': 121266.97530076306
 }, {
   'time': 1545609660000,
   'open': 3929.88,
@@ -2121,7 +2121,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3935.03,
   'amount': 28.682521496201527,
   'count': 92,
-  'vol': 112812.43635500947
+  'volume': 112812.43635500947
 }, {
   'time': 1545609720000,
   'open': 3934.14,
@@ -2130,7 +2130,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.66,
   'amount': 26.92797746883556,
   'count': 125,
-  'vol': 105939.496689
+  'volume': 105939.496689
 }, {
   'time': 1545609780000,
   'open': 3935.68,
@@ -2139,7 +2139,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3936.91,
   'amount': 26.0351,
   'count': 136,
-  'vol': 102458.440485
+  'volume': 102458.440485
 }, {
   'time': 1545609840000,
   'open': 3936.91,
@@ -2148,7 +2148,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3947.29,
   'amount': 37.0594,
   'count': 176,
-  'vol': 146111.293245
+  'volume': 146111.293245
 }, {
   'time': 1545609900000,
   'open': 3946.57,
@@ -2157,7 +2157,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3949.69,
   'amount': 32.588450750102645,
   'count': 230,
-  'vol': 128620.443524
+  'volume': 128620.443524
 }, {
   'time': 1545609960000,
   'open': 3949.73,
@@ -2166,7 +2166,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3969.85,
   'amount': 73.4791,
   'count': 402,
-  'vol': 290951.1036612121
+  'volume': 290951.1036612121
 }, {
   'time': 1545610020000,
   'open': 3964.03,
@@ -2175,7 +2175,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3965.3,
   'amount': 39.988517498686114,
   'count': 198,
-  'vol': 158219.39608958
+  'volume': 158219.39608958
 }, {
   'time': 1545610080000,
   'open': 3955.15,
@@ -2184,7 +2184,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3967.01,
   'amount': 44.322738942580344,
   'count': 169,
-  'vol': 175531.862393
+  'volume': 175531.862393
 }, {
   'time': 1545610140000,
   'open': 3964.38,
@@ -2193,7 +2193,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3971.76,
   'amount': 53.498890875666646,
   'count': 329,
-  'vol': 212200.29098017368
+  'volume': 212200.29098017368
 }, {
   'time': 1545610200000,
   'open': 3970.34,
@@ -2202,7 +2202,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3974.34,
   'amount': 46.937170224297475,
   'count': 471,
-  'vol': 186417.84748887565
+  'volume': 186417.84748887565
 }, {
   'time': 1545610260000,
   'open': 3969.37,
@@ -2211,7 +2211,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3980.88,
   'amount': 92.47297740919853,
   'count': 337,
-  'vol': 367647.061699
+  'volume': 367647.061699
 }, {
   'time': 1545610320000,
   'open': 3980.88,
@@ -2220,7 +2220,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3997.96,
   'amount': 61.55591243951104,
   'count': 591,
-  'vol': 245465.27062605988
+  'volume': 245465.27062605988
 }, {
   'time': 1545610380000,
   'open': 3995.33,
@@ -2229,7 +2229,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3996.66,
   'amount': 91.28705166556199,
   'count': 576,
-  'vol': 364031.20821579965
+  'volume': 364031.20821579965
 }, {
   'time': 1545610440000,
   'open': 3980.09,
@@ -2238,7 +2238,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3998.65,
   'amount': 50.66011073925956,
   'count': 353,
-  'vol': 202076.44482891
+  'volume': 202076.44482891
 }, {
   'time': 1545610500000,
   'open': 3996.82,
@@ -2247,7 +2247,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4003.63,
   'amount': 151.85517196927114,
   'count': 604,
-  'vol': 607432.46771
+  'volume': 607432.46771
 }, {
   'time': 1545610560000,
   'open': 4001.36,
@@ -2256,7 +2256,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4003.87,
   'amount': 84.36354600627165,
   'count': 457,
-  'vol': 337233.87847330037
+  'volume': 337233.87847330037
 }, {
   'time': 1545610620000,
   'open': 3982.05,
@@ -2265,7 +2265,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3986.05,
   'amount': 30.630706647059856,
   'count': 249,
-  'vol': 121975.58571470765
+  'volume': 121975.58571470765
 }, {
   'time': 1545610680000,
   'open': 3981.15,
@@ -2274,7 +2274,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990.01,
   'amount': 96.2522,
   'count': 301,
-  'vol': 383880.087433
+  'volume': 383880.087433
 }, {
   'time': 1545610740000,
   'open': 3988.23,
@@ -2283,7 +2283,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3991.61,
   'amount': 14.996373997620363,
   'count': 152,
-  'vol': 59823.28850619
+  'volume': 59823.28850619
 }, {
   'time': 1545610800000,
   'open': 3988.8,
@@ -2292,7 +2292,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3989.09,
   'amount': 48.8388,
   'count': 195,
-  'vol': 194681.535374
+  'volume': 194681.535374
 }, {
   'time': 1545610860000,
   'open': 3982.6,
@@ -2301,7 +2301,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3982.69,
   'amount': 50.720659820201455,
   'count': 250,
-  'vol': 201870.881232
+  'volume': 201870.881232
 }, {
   'time': 1545610920000,
   'open': 3977.1,
@@ -2310,7 +2310,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3986.01,
   'amount': 44.8539,
   'count': 214,
-  'vol': 178520.356969
+  'volume': 178520.356969
 }, {
   'time': 1545610980000,
   'open': 3982.6,
@@ -2319,7 +2319,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3987.96,
   'amount': 25.05266131761505,
   'count': 219,
-  'vol': 99802.474772
+  'volume': 99802.474772
 }, {
   'time': 1545611040000,
   'open': 3985.91,
@@ -2328,7 +2328,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3987.73,
   'amount': 32.62014464714176,
   'count': 140,
-  'vol': 129983.60372601
+  'volume': 129983.60372601
 }, {
   'time': 1545611100000,
   'open': 3984.62,
@@ -2337,7 +2337,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3993,
   'amount': 14.4764,
   'count': 117,
-  'vol': 57721.428007
+  'volume': 57721.428007
 }, {
   'time': 1545611160000,
   'open': 3992.98,
@@ -2346,7 +2346,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3993.32,
   'amount': 44.767680032148945,
   'count': 143,
-  'vol': 178655.12165145
+  'volume': 178655.12165145
 }, {
   'time': 1545611220000,
   'open': 3990.17,
@@ -2355,7 +2355,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990.17,
   'amount': 56.48384483754173,
   'count': 204,
-  'vol': 225149.4054233329
+  'volume': 225149.4054233329
 }, {
   'time': 1545611280000,
   'open': 3982.89,
@@ -2364,7 +2364,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990,
   'amount': 53.93468505205421,
   'count': 236,
-  'vol': 215032.35929590405
+  'volume': 215032.35929590405
 }, {
   'time': 1545611340000,
   'open': 3989.05,
@@ -2373,7 +2373,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990,
   'amount': 40.6706,
   'count': 153,
-  'vol': 162205.227738
+  'volume': 162205.227738
 }, {
   'time': 1545611400000,
   'open': 3988.47,
@@ -2382,7 +2382,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990,
   'amount': 53.10878088473323,
   'count': 225,
-  'vol': 211790.77281313
+  'volume': 211790.77281313
 }, {
   'time': 1545611460000,
   'open': 3982.92,
@@ -2391,7 +2391,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3987.31,
   'amount': 5.345051399860643,
   'count': 156,
-  'vol': 21299.079390867897
+  'volume': 21299.079390867897
 }, {
   'time': 1545611520000,
   'open': 3982.98,
@@ -2400,7 +2400,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3987.22,
   'amount': 22.7605,
   'count': 126,
-  'vol': 90696.22750804527
+  'volume': 90696.22750804527
 }, {
   'time': 1545611580000,
   'open': 3984.69,
@@ -2409,7 +2409,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3985,
   'amount': 12.976,
   'count': 140,
-  'vol': 51701.672573
+  'volume': 51701.672573
 }, {
   'time': 1545611640000,
   'open': 3984.17,
@@ -2418,7 +2418,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3985,
   'amount': 15.88438882782366,
   'count': 107,
-  'vol': 63288.080446
+  'volume': 63288.080446
 }, {
   'time': 1545611700000,
   'open': 3983.74,
@@ -2427,7 +2427,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3984.28,
   'amount': 25.46413613723049,
   'count': 213,
-  'vol': 101445.43846434
+  'volume': 101445.43846434
 }, {
   'time': 1545611760000,
   'open': 3982.88,
@@ -2436,7 +2436,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3984.95,
   'amount': 18.84,
   'count': 144,
-  'vol': 75049.214537
+  'volume': 75049.214537
 }, {
   'time': 1545611820000,
   'open': 3984.42,
@@ -2445,7 +2445,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3993.67,
   'amount': 24.311043266711092,
   'count': 242,
-  'vol': 97006.799608
+  'volume': 97006.799608
 }, {
   'time': 1545611880000,
   'open': 3990.72,
@@ -2454,7 +2454,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3990.77,
   'amount': 31.055570012616638,
   'count': 180,
-  'vol': 123887.24912924
+  'volume': 123887.24912924
 }, {
   'time': 1545611940000,
   'open': 3989.79,
@@ -2463,7 +2463,7 @@ export const BTC_PRICE_LIST = [{
   'high': 3999,
   'amount': 39.669058027411715,
   'count': 204,
-  'vol': 158478.83458871
+  'volume': 158478.83458871
 }, {
   'time': 1545612000000,
   'open': 3998.12,
@@ -2472,7 +2472,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4015,
   'amount': 193.55886223012777,
   'count': 512,
-  'vol': 775170.83295
+  'volume': 775170.83295
 }, {
   'time': 1545612060000,
   'open': 4014.09,
@@ -2481,7 +2481,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4039,
   'amount': 320.5294223220344,
   'count': 1235,
-  'vol': 1291052.0309064453
+  'volume': 1291052.0309064453
 }, {
   'time': 1545612120000,
   'open': 4038,
@@ -2490,7 +2490,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4038,
   'amount': 218.3157547718048,
   'count': 879,
-  'vol': 880894.248773
+  'volume': 880894.248773
 }, {
   'time': 1545612180000,
   'open': 4029.43,
@@ -2499,7 +2499,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4030.63,
   'amount': 76.25472208642904,
   'count': 556,
-  'vol': 307064.676276913
+  'volume': 307064.676276913
 }, {
   'time': 1545612240000,
   'open': 4021.34,
@@ -2508,7 +2508,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4049,
   'amount': 153.2245,
   'count': 660,
-  'vol': 618252.967552
+  'volume': 618252.967552
 }, {
   'time': 1545612300000,
   'open': 4048.59,
@@ -2517,7 +2517,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4088,
   'amount': 374.8349845315417,
   'count': 1481,
-  'vol': 1524923.6323487165
+  'volume': 1524923.6323487165
 }, {
   'time': 1545612360000,
   'open': 4086.26,
@@ -2526,7 +2526,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4108.54,
   'amount': 693.0413154376816,
   'count': 2184,
-  'vol': 2840070.9806519095
+  'volume': 2840070.9806519095
 }, {
   'time': 1545612420000,
   'open': 4101.29,
@@ -2535,7 +2535,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4103.27,
   'amount': 106.03580357869618,
   'count': 759,
-  'vol': 434018.8573674
+  'volume': 434018.8573674
 }, {
   'time': 1545612480000,
   'open': 4087.92,
@@ -2544,7 +2544,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4105.86,
   'amount': 152.50976136677295,
   'count': 745,
-  'vol': 625146.87218493
+  'volume': 625146.87218493
 }, {
   'time': 1545612540000,
   'open': 4103.7,
@@ -2553,7 +2553,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4103.89,
   'amount': 39.64372136408007,
   'count': 367,
-  'vol': 162340.1804161818
+  'volume': 162340.1804161818
 }, {
   'time': 1545612600000,
   'open': 4085.78,
@@ -2562,7 +2562,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4114.5,
   'amount': 156.4542,
   'count': 792,
-  'vol': 641735.8790275267
+  'volume': 641735.8790275267
 }, {
   'time': 1545612660000,
   'open': 4103.85,
@@ -2571,7 +2571,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4130,
   'amount': 189.1381617146422,
   'count': 872,
-  'vol': 778369.1653020186
+  'volume': 778369.1653020186
 }, {
   'time': 1545612720000,
   'open': 4130,
@@ -2580,7 +2580,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4158,
   'amount': 364.8719426062168,
   'count': 1256,
-  'vol': 1512350.5522929032
+  'volume': 1512350.5522929032
 }, {
   'time': 1545612780000,
   'open': 4150.04,
@@ -2589,7 +2589,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4155.13,
   'amount': 219.1980081459858,
   'count': 640,
-  'vol': 910218.07382932
+  'volume': 910218.07382932
 }, {
   'time': 1545612840000,
   'open': 4145,
@@ -2598,7 +2598,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4145,
   'amount': 131.93445013457006,
   'count': 578,
-  'vol': 545263.4676552344
+  'volume': 545263.4676552344
 }, {
   'time': 1545612900000,
   'open': 4131.28,
@@ -2607,7 +2607,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4141.16,
   'amount': 77.38850135129577,
   'count': 450,
-  'vol': 319985.75298
+  'volume': 319985.75298
 }, {
   'time': 1545612960000,
   'open': 4141.09,
@@ -2616,7 +2616,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4141.15,
   'amount': 196.6795058485776,
   'count': 689,
-  'vol': 813776.168094
+  'volume': 813776.168094
 }, {
   'time': 1545613020000,
   'open': 4135.16,
@@ -2625,7 +2625,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4158,
   'amount': 134.44853420698104,
   'count': 615,
-  'vol': 557339.4105989955
+  'volume': 557339.4105989955
 }, {
   'time': 1545613080000,
   'open': 4150.7,
@@ -2634,7 +2634,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4153.84,
   'amount': 84.7122,
   'count': 438,
-  'vol': 351266.737787
+  'volume': 351266.737787
 }, {
   'time': 1545613140000,
   'open': 4147.95,
@@ -2643,7 +2643,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4148.95,
   'amount': 52.412352860008646,
   'count': 319,
-  'vol': 217179.14359642
+  'volume': 217179.14359642
 }, {
   'time': 1545613200000,
   'open': 4144.05,
@@ -2652,7 +2652,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4165.22,
   'amount': 146.49894032504648,
   'count': 652,
-  'vol': 608320.7634383774
+  'volume': 608320.7634383774
 }, {
   'time': 1545613260000,
   'open': 4161.65,
@@ -2661,7 +2661,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4165.19,
   'amount': 105.62858369947831,
   'count': 560,
-  'vol': 438550.76689449
+  'volume': 438550.76689449
 }, {
   'time': 1545613320000,
   'open': 4133.94,
@@ -2670,7 +2670,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4133.94,
   'amount': 107.90185485935464,
   'count': 520,
-  'vol': 445522.10037637816
+  'volume': 445522.10037637816
 }, {
   'time': 1545613380000,
   'open': 4129.86,
@@ -2679,7 +2679,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4133,
   'amount': 64.72686752009344,
   'count': 357,
-  'vol': 267201.833258
+  'volume': 267201.833258
 }, {
   'time': 1545613440000,
   'open': 4130.38,
@@ -2688,7 +2688,7 @@ export const BTC_PRICE_LIST = [{
   'high': 4132.52,
   'amount': 34.72735261627907,
   'count': 240,
-  'vol': 143376.252804
+  'volume': 143376.252804
 }, {
   'time': 1545613500000,
   'open': 4132.01,
@@ -2697,5 +2697,5 @@ export const BTC_PRICE_LIST = [{
   'high': 4137.7,
   'amount': 52.16401507356659,
   'count': 301,
-  'vol': 215532.39173211
+  'volume': 215532.39173211
 }];

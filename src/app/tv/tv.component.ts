@@ -139,7 +139,6 @@ export class TvComponent implements OnInit, OnDestroy {
               if (data) {
                 // realtime data
                 // data's timestamp === recent one ? Update the recent one : A new timestamp data
-                // in this example mock service always returns a new timestamp(current time)
                 onTick(data);
               }
             } catch (e) {
