@@ -2,7 +2,7 @@
 
 [Tradingview](https://www.tradingview.com/) jsapi example in Angular base on fake data and fake websocket :smile:.
 
-## How to run
+## How to run ([Or try the out-of-box way](https://github.com/forchartlib/tradingview-angular-example))
 - Step 1
 
   Put `charting_library/` under the `src/assets/vendors/`
