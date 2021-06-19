@@ -8,8 +8,8 @@
   Put `charting_library/` under the `src/assets/vendors/`
   
   **This repository doesn't have a tradingview `charting_library/` for some unknown reasons.
-  If need, just create an issue and leave your email there for receiving the lib.
-  Someone(NOT ME AT ALL!) will send `lib.zip` to you as soon.*
+  If need, see [repo](https://github.com/forchartlib/tradingview-angular-example/tree/chart-only). 
+  Anyway, it's recommended to use your own `charting_library/` .*
 
 - Step 2
 
