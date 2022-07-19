@@ -56,7 +56,8 @@ export class MockService {
       send(message: string) {
         const matched = message.match(/.+_kline_(\d+)/);
 
-        // if matched, then send data base on granularity, else unsubscribe.
+        // if matched, then send data based on granularity
+        // else unsubscribe, which means to close connection in this example
         if (matched) {
           granularity = +matched[1] * 1e3;
           sendData();
@@ -72,12 +73,37 @@ export class MockService {
       const duration = 3e3;
       subscription = interval(duration)
         .pipe(
+          /*
+           * mock data, no need to care about the logic if you use server data
+           * the point is the time of the data
+           * data.time === last.time => update
+           * data.time !== last.time => draw new bar
+           */
           map(() => {
             const currentTimestamp = +new Date();
             if (currentTimestamp - this.lastBarTimestamp >= granularity) {
+              /* time goes to next, generate new one */
               this.lastBarTimestamp += granularity;
+              return MockService.dataGenerator(this.lastBarTimestamp);
+            } else if (currentTimestamp + duration - this.lastBarTimestamp >= granularity) {
+              // next one will be new one, get data from local, then return to client
+              // so old bars will be real data
+              return { ...BTC_PRICE_LIST[MockService.dataIndex], time: this.lastBarTimestamp, };
+            } else {
+              /* simulate real time update, update the one that last time returned */
+              const data = BTC_PRICE_LIST[MockService.dataIndex];
+              const priceChanged = Math.random() * 10 - 10 / 2; // make price change in same step
+              return {
+                time: this.lastBarTimestamp,
+                open: data.open + priceChanged,
+                close: data.close + priceChanged,
+                low: data.low + priceChanged,
+                high: data.high + priceChanged,
+                amount: Math.abs(data.amount + Math.random() * 10 - 10 / 2),
+                count: Math.abs(data.count + Math.random() * 10 - 10 / 2),
+                volume: Math.abs(data.volume + Math.random() * 10 - 10 / 2),
+              };
             }
-            return MockService.dataGenerator(this.lastBarTimestamp);
           })
         )
         .subscribe(x => {
