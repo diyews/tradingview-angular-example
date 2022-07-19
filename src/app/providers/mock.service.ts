@@ -41,7 +41,6 @@ export class MockService {
       list.push(MockService.dataGenerator(timePoint));
       timePoint += param.granularity * 1e3;
     }
-    console.log(list[list.length - 1]);
 
     return new Observable((ob: Observer<any>) => {
       ob.next(list);

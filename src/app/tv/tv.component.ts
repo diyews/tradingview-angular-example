@@ -35,7 +35,7 @@ export class TvComponent implements OnInit, OnDestroy {
     this.ws = this.mockService.fakeWebSocket();
 
     this.ws.onopen = () => {
-      console.log('connect success');
+      console.log('fake websocket: onopen');
       this.drawTv();
     };
   }
@@ -45,12 +45,10 @@ export class TvComponent implements OnInit, OnDestroy {
   }
 
   drawTv() {
-    const that = this;
-
-    this.tradingview = new (window as any).TradingView.widget({
+    this.tradingview = new window.TradingView.widget({
       // debug: true, // uncomment this line to see Library errors and warnings in the console
       fullscreen: true,
-      symbol: that.symbol,
+      symbol: this.symbol,
       interval: '1',
       container_id: 'tradingview',
       library_path: 'assets/vendors/charting_library/',
@@ -84,56 +82,65 @@ export class TvComponent implements OnInit, OnDestroy {
         'timezone_menu',
         'remove_library_container_border',
       ],
-      allow_symbol_change: true,
       // enabled_features: ['study_templates'],
       // charts_storage_url: 'http://saveload.tradingview.com',
       charts_storage_api_version: '1.1',
       client_id: 'tradingview.com',
       user_id: 'public_user_id',
       timezone: 'America/New_York',
-      volumePaneSize: 'tiny',
       datafeed: {
         onReady(x) {
           timer(0)
             .pipe(
               tap(() => {
                 x({
-                  supported_resolutions: ['1', '3', '5', '30', '60', '120', '240', '360', 'D']
+                  supported_resolutions: ['1', '3', '5', '30', '60', '120', '240', '360', 'D'],
                 });
               })
             ).subscribe();
         },
-        getBars(symbol, granularity, startTime, endTime, onResult, onError, isFirst) {
-          console.log('getBars:', arguments);
-          that.mockService.getHistoryList({
-            granularity: that.granularityMap[granularity],
+        getBars: (...args) => {
+          const [symbol, granularity, startTime, endTime, onResult, onError, isFirst] = args;
+          console.log('[getBars]:', args);
+          this.mockService.getHistoryList({
+            granularity: this.granularityMap[granularity],
             startTime,
             endTime
           }).subscribe((data: any) => {
             // push the history data to callback
-            onResult(data);
+            onResult(data, { noData: false });
           });
         },
-        resolveSymbol(symbol, onResolve) {
-          console.log('resolveSymbol:', arguments);
+        resolveSymbol: (symbol, onResolve, onError) => {
+          console.log('[resolveSymbol]');
           timer(1e3)
             .pipe(
               tap(() => {
                 onResolve({
-                  name: that.symbol,
-                  full_name: that.symbol, // display on the chart
-                  base_name: that.symbol,
-                  has_intraday: true, // enable minute and others
+                  name: this.symbol,
+                  full_name: this.symbol,
+                  base_name: this.symbol,
+                  has_intraday: true,
+                  description: '',
+                  type: '',
+                  session: '24x7',
+                  exchange: '',
+                  listed_exchange: '',
+                  timezone: 'America/New_York',
+                  minmov: 1,
+                  pricescale: 100,
+                  supported_resolutions: ['1', '3', '5', '30', '60', '120', '240', '360', 'D'],
                 });
               })
             ).subscribe();
         },
-        getServerTime() {
-          console.log('serverTime:', arguments);
+        getServerTime: (callback) => {
+          console.log('[serverTime]');
         },
-        subscribeBars(symbol, granularity, onTick) {
-          console.log('subscribe, arg:', arguments);
-          that.ws.onmessage = (e) => {
+        subscribeBars: (...args) => {
+          const [symbol, granularity, onTick] = args;
+          console.log('[subscribe], arg:', args);
+          this.ws.onmessage = (e) => {
             try {
               const data = e;
               if (data) {
@@ -147,11 +154,12 @@ export class TvComponent implements OnInit, OnDestroy {
           };
 
           // subscribe the realtime data
-          that.ws.send(`${that.wsMessage}_kline_${that.granularityMap[granularity]}`);
+          this.ws.send(`${this.wsMessage}_kline_${this.granularityMap[granularity]}`);
         },
-        unsubscribeBars() {
-          that.ws.send('stop receiving data or just close websocket');
+        unsubscribeBars: () => {
+          this.ws.send('stop receiving data or just close websocket');
         },
+        searchSymbols: () => { /* ts: required method */ },
       },
     });
   }
